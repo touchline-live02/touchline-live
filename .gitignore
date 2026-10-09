@@ -1,0 +1,34 @@
+# Player captures and local evidence stay local.
+/app-data/
+/checkpoint*/
+/docs/*
+!/docs/PUBLIC_SOURCE.md
+!/docs/ARCHITECTURE.md
+!/docs/ATTRIBUTION.md
+!/docs/evidence/
+/docs/evidence/*
+!/docs/evidence/trait-labels.json
+# Build outputs and user-specific state.
+*.app/
+*.zip
+/touchline-probe
+/assets/TouchlineLive.icns
+**/.module-cache/
+**/__pycache__/
+*.py[cod]
+.DS_Store
+*.log
+*.jsonl
+*.tmp
+*.swp
+*.xcuserstate
+xcuserdata/
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.mobileprovision
+/.private/
+/public-source/
+/Touchline Live.command
