@@ -45,9 +45,12 @@ existing installation if you want to retain its latest capture.
 
 Touchline captures player data by reading the running Football Manager process.
 The helper is read-only, but macOS System Integrity Protection (SIP) can still
-block one application from accessing another application's memory. This is the
-same general macOS process-protection issue documented by
-[FMRTE](https://www.fmrte.com/blogs/entry/3-macos-unable-to-open-process/).
+block one application from accessing another application's memory. FMRTE has
+documented the same general macOS process-protection issue in its
+[historical write-up](https://www.fmrte.com/blogs/entry/3-macos-unable-to-open-process/),
+while its current [troubleshooting guidance](https://docs.fmrte.com/help/troubleshooting/)
+warns that older SIP workarounds are not universal. Touchline uses the narrower,
+tested procedure below rather than the older broad workaround.
 
 On the supported Apple Silicon test system, live refresh was verified to fail with
 full SIP enabled and to work with only **Debugging Restrictions** disabled. Kext
