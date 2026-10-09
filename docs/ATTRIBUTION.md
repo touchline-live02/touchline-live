@@ -9,10 +9,11 @@ not itself grant redistribution rights to third-party material.
 
 The preferred-move label table and `docs/evidence/trait-labels.json` retain English
 labels transcribed from **FMRTE 24's English resource**, together with its reference
-hash and 1-based ID rule. That literal label material requires owner provenance/
-terms review. The player/person memory offsets and layout ordering were validated
-through FM24 capture and static interoperability evidence, including named FMRTE
-accessors for personality components and its current-layout reputation branch.
+hash and 1-based ID rule. Those labels are attributed here to the cited source; the
+original resource is not redistributed by this repository. The player/person memory
+offsets and layout ordering were validated through FM24 capture and static
+interoperability evidence, including named FMRTE accessors for personality components
+and its current-layout reputation branch.
 Implementation metadata describes those checks neutrally; this document preserves
 their source attribution.
 
@@ -35,19 +36,18 @@ The matrix was community-transcribed from the
 linked by [Squad Analyzer FM2024](https://github.com/ami-167/Squad_analyzer_FM_2024).
 It records FM24 key/preferable tiers rather than another tool's rating formula.
 Only selected roles were independently spot-checked in game; this is not a claim
-of independent live verification of every matrix cell. Source/transcription terms
-require owner review.
+of independent live verification of every matrix cell. The matrix is included
+with attribution to the cited community sources.
 
 ## Personality and fixtures
 
 The personality classification/calendar fixtures use synthetic inputs evaluated
 against supported FM24 routines. They are not exported careers. English labels
-were resolved from FM24's installed language data; relevant provenance and terms
-should be considered alongside the classification implementation.
+were resolved from FM24's installed language data; relevant provenance is recorded
+here alongside the classification implementation.
 
 ## Artwork and third-party code
 
-The icon was supplied by the project owner. Ownership and publication permission
-are for the owner to confirm. This source tree does not contain external SDK
-binaries or vendor project code; builds depend on system frameworks and local
-developer tools.
+The icon was supplied by the project owner. This source tree does not contain
+external SDK binaries or vendor project code; builds depend on system frameworks
+and local developer tools.
